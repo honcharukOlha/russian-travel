@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    min-height: 52px;
+    margin: 0 48px 0;
+    padding-top: 28px;
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        width: 1184px;
+        margin: 0 24px 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        width: 720px;
+        margin: 0 24px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 720px;
+        margin: 0 24px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        width: 288px;
+        min-height: 42px;
+        margin: 0 16px;
+        padding: 16px 0 0;
+    }
+}

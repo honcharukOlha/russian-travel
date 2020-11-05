@@ -1,0 +1,36 @@
+.lead__image {
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .lead__image {
+        width: 984px;
+        min-height: 615px;
+        margin: 64px auto 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        width: 928px;
+        min-height: 580px;
+        margin: 56px auto 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 768px;
+        min-height: 480px;
+        margin: 56px auto 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        width: 320px;
+        min-height: 200px;
+        margin: 40px 0 0;
+    }
+}
