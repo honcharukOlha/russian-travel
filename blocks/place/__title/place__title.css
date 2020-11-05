@@ -1,5 +1,5 @@
 .place__title {
-    height: auto;
+    min-height: 92px;
     align-self: end;
     font-style: normal;
     font-weight: 900;
@@ -38,5 +38,6 @@
         width: 288px;
         font-size: 32px;
         line-height: 35px;
+        margin: 0 16px;
     }
 }

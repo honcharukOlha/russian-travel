@@ -8,6 +8,10 @@
             margin-top: 12px;
         }
         
+        .place__link:hover {
+            text-decoration-line: none;
+        }
+        
         @media screen and (max-width: 1280px) {
             .place__link {
                 width: 456px;

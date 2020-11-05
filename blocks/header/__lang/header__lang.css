@@ -1,4 +1,3 @@
-.header__lang {
-    display: flex;
-    justify-content: end;
-}
+    .header__lang {
+        display: flex;
+    }

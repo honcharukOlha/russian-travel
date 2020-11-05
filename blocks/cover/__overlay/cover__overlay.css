@@ -5,6 +5,10 @@
     background: rgb(42 44 47 / .3);
 }
 
+.cover__overlay:hover {
+    background: rgb(42 44 47 / .8);
+}
+
 @media screen and (max-width: 1280px) {
     .cover__overlay {
         width: 1184px;
@@ -31,8 +35,4 @@
         width: 100%;
         min-height: 200px;
     }
-}
-
-.cover__overlay:hover {
-    opacity: .8;
 }
