@@ -2,13 +2,10 @@
     display: grid;
     column-gap: 40px;
     row-gap: 48px;
-    width: 100%;
     align-self: start;
-    margin: 0 24px;
+    margin: 0 24px 80px;
     grid-template-columns: repeat(2, minmax(440px, 1fr));
-    column-gap: 40px;
     width: 984px;
-    margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1024px) {

@@ -6,7 +6,7 @@
         line-height: 18px;
         list-style-type: none;
         padding: 0;
-        width: 690px
+        width: 690px;
     }
     
     @media screen and (max-width: 768px) {
