@@ -1,20 +1,13 @@
     .intro {
         display: flex;
         flex-direction: column;
-    }
-    
-    @media screen and (max-width: 1280px) {
-        .intro {
-            width: 690px;
-            min-height: 429px;
-            margin: 114px 442px 92px 148px;
-        }
+        width: 690px;
+        margin: 114px 442px 92px 148px;
     }
     
     @media screen and (max-width: 1024px) {
         .intro {
             width: 690px;
-            min-height: 429px;
             margin: 114px 286px 92px 48px;
         }
     }
@@ -22,7 +15,6 @@
     @media screen and (max-width: 768px) {
         .intro {
             width: 720px;
-            min-height: 429px;
             margin: 110px auto 88px;
         }
     }
@@ -30,7 +22,6 @@
     @media screen and (max-width: 320px) {
         .intro {
             width: 288px;
-            min-height: 754px;
             margin: 64px auto;
         }
     }

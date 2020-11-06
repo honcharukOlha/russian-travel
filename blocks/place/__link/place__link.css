@@ -6,30 +6,22 @@
             text-decoration-line: underline;
             color: #FFFFFF;
             margin-top: 12px;
+            width: 456px;
         }
         
         .place__link:hover {
             text-decoration-line: none;
         }
         
-        @media screen and (max-width: 1280px) {
-            .place__link {
-                width: 456px;
-                min-height: 22px;
-            }
-        }
-        
         @media screen and (max-width: 1024px) {
             .place__link {
                 width: 456px;
-                min-height: 22px;
             }
         }
         
         @media screen and (max-width: 768px) {
             .place__link {
                 width: 352px;
-                min-height: 22px;
             }
         }
         

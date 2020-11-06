@@ -2,36 +2,27 @@
     display: flex;
     flex-direction: column;
     padding: 0;
-}
-
-@media screen and (max-width: 1280px) {
-    .places {
-        width: 984px;
-        height: 3392px;
-        margin: 92px 148px 0;
-    }
+    width: 984px;
+    margin: 92px 148px 12px;
 }
 
 @media screen and (max-width: 1024px) {
     .places {
         width: 928px;
-        height: 3292px;
-        margin: 0 0 92px;
+        margin: 0 0 12px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places {
         width: 720px;
-        height: 2808px;
-        margin: 0 0 90px;
+        margin: 0 0 12px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .places {
         width: 320px;
-        height: 4784px;
         margin: 0 0 66px;
     }
 }

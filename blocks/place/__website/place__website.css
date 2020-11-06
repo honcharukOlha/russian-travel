@@ -3,26 +3,18 @@
     flex-direction: column;
     align-self: end;
     padding: 0;
-}
-
-@media screen and (max-width: 1280px) {
-    .place__website {
-        max-width: 456px;
-        min-height: 46px;
-    }
+    max-width: 456px;
 }
 
 @media screen and (max-width: 1024px) {
     .place__website {
         width: 456px;
-        min-height: 46px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__website {
         width: 352px;
-        min-height: 46px;
     }
 }
 

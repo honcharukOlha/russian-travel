@@ -6,13 +6,8 @@
         height: 100%;
         margin: 0;
         padding: 0;
-    }
-    
-    @media screen and (max-width: 1280px) {
-        .cover__background {
-            width: 100%;
-            min-height: 740px;
-        }
+        width: 100%;
+        min-height: 740px;
     }
     
     @media screen and (max-width: 1024px) {
