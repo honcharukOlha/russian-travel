@@ -2,7 +2,8 @@
     display: flex;
     position: relative;
     justify-content: space-between;
-    height: 52px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    min-height: 52px;
     padding-top: 28px;
     width: 1184px;
     margin: 0 24px 0;
@@ -11,14 +12,12 @@
 @media screen and (max-width: 1024px) {
     .header {
         width: 928px;
-        margin: 0 24px 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
         width: 720px;
-        margin: 0 24px 0;
     }
 }
 

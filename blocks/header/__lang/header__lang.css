@@ -1,6 +1,14 @@
     .header__lang {
         display: flex;
+        align-self: center;
+        justify-self: center;
         list-style-type: none;
         margin: 0;
         padding: 0;
+    }
+    
+    @media screen and (max-width: 320px) {
+        .header__lang {
+            margin-top: 14px;
+        }
     }

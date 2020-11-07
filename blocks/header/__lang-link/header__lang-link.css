@@ -6,29 +6,16 @@
     color: #FFFFFF;
     text-decoration: none;
     margin: 0;
-    padding: 0;
-    width: 30px;
+    padding: 0 0 0 18px;
+    transition: opacity .5s linear .1s;
 }
 
-.header__lang-link:first-of-type {
-    padding-right: 18px;
-}
-
-@media screen and (max-width: 1024px) {
-    .header__lang-link {
-        width: 30px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header__lang-link {
-        width: 30px;
-    }
+.header__lang-link:hover {
+    opacity: 0.3;
 }
 
 @media screen and (max-width: 320px) {
     .header__lang-link {
-        width: 22px;
         font-size: 18px;
         line-height: 20px;
     }

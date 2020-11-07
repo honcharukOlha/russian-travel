@@ -4,6 +4,7 @@
     justify-content: center;
     width: 984px;
     margin: 56px auto 0;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,6 +24,8 @@
 @media screen and (max-width: 320px) {
     .lead {
         max-width: 320px;
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 64px;
     }
 }

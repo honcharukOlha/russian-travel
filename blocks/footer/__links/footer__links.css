@@ -9,5 +9,6 @@
         .footer__links {
             flex-direction: column;
             justify-content: space-between;
+            min-height: 248px;
         }
     }
