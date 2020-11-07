@@ -18,6 +18,10 @@
 * Методология БЭМ
 [https://ru.bem.info/methodology/]
 
+
+
+[Ссылка на проект в Git Pages](https://honcharukolha.github.io/russian-travel/)
+
 ## To do 
 
 * Подключить JavaScript

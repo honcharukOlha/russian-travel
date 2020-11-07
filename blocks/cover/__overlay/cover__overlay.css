@@ -1,14 +1,11 @@
 .cover__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgb(42 44 47 / .3);
-    width: 1184px;
-    min-height: 740px;
-}
-
-.cover__overlay:hover {
-    background: rgb(42 44 47 / .8);
+    background-image: url(../../../sprint-3-images/cover-trains.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
