@@ -7,7 +7,6 @@
     grid-template-columns: repeat(2, minmax(440px, 1fr));
     width: 984px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
-    align-self: center;
     justify-self: center;
 }
 
