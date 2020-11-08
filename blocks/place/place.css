@@ -3,9 +3,9 @@
     column-gap: 40px;
     row-gap: 48px;
     align-self: start;
-    margin: 0 24px 80px;
+    margin: 0 0 80px;
     grid-template-columns: repeat(2, minmax(440px, 1fr));
-    width: 984px;
+    width: 100%;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     justify-self: center;
 }
@@ -14,7 +14,6 @@
     .place {
         grid-template-columns: repeat(2, minmax(460px, 1fr));
         column-gap: 32px;
-        width: 928px;
         margin-bottom: 80px;
     }
 }
@@ -23,7 +22,6 @@
     .place {
         grid-template-columns: repeat(2, minmax(340px, 1fr));
         column-gap: 28px;
-        width: 720px;
         margin-bottom: 73px;
     }
 }
@@ -32,7 +30,6 @@
     .place {
         grid-template-columns: 320px;
         row-gap: 32px;
-        width: 320px;
         margin: 0 0 49px;
     }
 }

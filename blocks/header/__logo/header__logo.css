@@ -1,6 +1,6 @@
 .header__logo {
     display: flex;
-    background-image: url(../../../sprint-3-images/header-logo.svg);
+    background-image: url(../../../images/header-logo.svg);
     max-width: 176px;
     min-height: 52px;
     margin: 0;
