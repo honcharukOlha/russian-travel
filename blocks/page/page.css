@@ -1,13 +1,14 @@
 .page {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #2A2C2F;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     color: white;
     font-size: 100%;
     margin: auto;
-    width: 100%;
-    align-items: center;
+    width: 1280;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
