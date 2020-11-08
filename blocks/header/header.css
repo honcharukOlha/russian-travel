@@ -5,7 +5,7 @@
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     min-height: 52px;
     padding-top: 28px;
-    width: 1184px;
+    width: calc(100% - 48px*2);
     margin: 0 24px 0;
 }
 

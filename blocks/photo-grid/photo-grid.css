@@ -3,16 +3,20 @@
     gap: 16px;
     grid-template-columns: repeat(4, 284px);
     grid-template-rows: repeat(3, 213px);
-    width: 1184px;
+    max-width: 1184px;
     margin: 0 auto 92px;
 }
 
-@media screen and (max-width: 1024px) {
+
+/* 1185px указан вместо разрешения на 1024px 
+по причине переполнения page в промежутке 1025px - 1085px */
+
+@media screen and (max-width: 1185px) {
     .photo-grid {
         grid-template-columns: repeat(3, 300px);
         grid-template-rows: repeat(4, 225px);
         gap: 14px;
-        width: 928px;
+        max-width: 928px;
     }
 }
 
@@ -20,7 +24,7 @@
     .photo-grid {
         grid-template-columns: repeat(2, 352px);
         grid-template-rows: repeat(6, 264px);
-        width: 720px;
+        max-width: 720px;
         margin-bottom: 88px;
     }
 }
@@ -29,7 +33,7 @@
     .photo-grid {
         grid-template-columns: 288px;
         grid-template-rows: repeat(12, 216px);
-        width: 288px;
+        max-width: 288px;
         margin-bottom: 64px;
     }
 }
