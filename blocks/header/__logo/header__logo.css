@@ -2,7 +2,6 @@
     display: flex;
     background-image: url(../../../images/header-logo.svg);
     max-width: 176px;
-    min-height: 52px;
     margin: 0;
     align-self: center;
     justify-self: center;
@@ -10,8 +9,7 @@
 
 @media screen and (max-width: 320px) {
     .header__logo {
-        width: minmax(142px, 1fr);
-        min-width: 142px;
-        min-height: 42px;
+        background-image: url(../../../images/__logo.svg);
+        max-width: 142px;
     }
 }

@@ -4,7 +4,7 @@
     row-gap: 48px;
     align-self: start;
     margin: 0 0 80px;
-    grid-template-columns: repeat(2, minmax(440px, 1fr));
+    grid-template-columns: repeat(2, minmax(310px, 1fr));
     width: 100%;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     justify-self: center;
@@ -12,7 +12,6 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: repeat(2, minmax(460px, 1fr));
         column-gap: 32px;
         margin-bottom: 80px;
     }
@@ -20,7 +19,7 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: repeat(2, minmax(340px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(273px, 1fr));
         column-gap: 28px;
         margin-bottom: 73px;
     }
@@ -28,7 +27,7 @@
 
 @media screen and (max-width: 320px) {
     .place {
-        grid-template-columns: 320px;
+        grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
         row-gap: 32px;
         margin: 0 0 49px;
     }
