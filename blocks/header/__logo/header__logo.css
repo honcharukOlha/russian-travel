@@ -1,6 +1,5 @@
 .header__logo {
     display: flex;
-    background-image: url(../../../images/header-logo.svg);
     max-width: 176px;
     margin: 0;
     align-self: center;
@@ -9,7 +8,6 @@
 
 @media screen and (max-width: 320px) {
     .header__logo {
-        background-image: url(../../../images/__logo.svg);
         max-width: 142px;
     }
 }
